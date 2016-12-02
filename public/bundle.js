@@ -1364,7 +1364,7 @@
 /* 220 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar WeatherMessage = React.createClass({\n  displayName: 'WeatherMessage',\n\n  render: function render() {\n    var _props = this.props,\n        location = _props.location,\n        temp = _props.temp;\n\n    return React.createElement(\n      'h3',\n      null,\n      'It\\'s ',\n      temp,\n      ' degrees in ',\n      location,\n      '.'\n    );\n  }\n});\n\nmodule.exports = WeatherMessage;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./public/components/WeatherMessage.jsx\n ** module id = 220\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./public/components/WeatherMessage.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar WeatherMessage = function WeatherMessage(props) {\n  var location = props.location,\n      temp = props.temp;\n\n  return React.createElement(\n    'h3',\n    null,\n    'It\\'s ',\n    temp,\n    ' degrees in ',\n    location,\n    '.'\n  );\n};\n\nmodule.exports = WeatherMessage;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./public/components/WeatherMessage.jsx\n ** module id = 220\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./public/components/WeatherMessage.jsx?");
 
 /***/ },
 /* 221 */
@@ -1376,7 +1376,7 @@
 /* 222 */
 /***/ function(module, exports, __webpack_require__) {
 
-	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    'h3',\n    null,\n    'Examples component'\n  );\n};\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./public/components/Examples.jsx\n ** module id = 222\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./public/components/Examples.jsx?");
+	eval("'use strict';\n\nvar React = __webpack_require__(1);\n\nvar Examples = function Examples(props) {\n  return React.createElement(\n    'h3',\n    null,\n    'Examples'\n  );\n};\n\nmodule.exports = Examples;\n\n/*****************\n ** WEBPACK FOOTER\n ** ./public/components/Examples.jsx\n ** module id = 222\n ** module chunks = 0\n **/\n//# sourceURL=webpack:///./public/components/Examples.jsx?");
 
 /***/ }
 /******/ ]);
